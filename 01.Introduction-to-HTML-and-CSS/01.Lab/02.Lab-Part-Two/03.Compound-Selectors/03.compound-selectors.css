@@ -1,0 +1,47 @@
+p.highlighted-paragraph {
+  color: #2886ec;
+  font-size: 18px;
+}
+
+div#special-box {
+  background-color: #ffc107;
+}
+
+.important-item {
+  color: #74c7d5;
+}
+
+.important-item.special-highlight {
+  font-style: italic;
+  color: #da293a;
+}
+
+a {
+  display: block;
+}
+
+a + a {
+  margin-top: 15px;
+}
+
+a[href="#"] {
+  color: #0909ee;
+  text-decoration: underline;
+}
+
+a[href="https://softuni.bg"] {
+  color: #ffc107;
+  text-decoration: underline double;
+}
+
+p.important-item.special-highlight {
+  color: #0909ee;
+  font-style: normal;
+}
+
+input[type="text"].input-text {
+  border-color: #ffc107;
+  padding: 5px;
+  margin-top: 10px;
+  display: block;
+}

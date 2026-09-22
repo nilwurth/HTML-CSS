@@ -1,0 +1,44 @@
+nav ul li a {
+  color: #00007d;
+  text-decoration: none;
+}
+
+nav ul li:first-child a {
+  font-weight: bold;
+}
+
+nav ul li:last-child a {
+  font-style: italic;
+}
+
+.content > section {
+  margin: 0;
+}
+
+section.highlight ~ article p {
+  background-color: #add8e6;
+}
+
+section.highlight + article {
+  margin-top: 0;
+}
+
+section.highlight h2::before {
+  content: ">> ";
+  color: darkred;
+}
+
+section.highlight h2::after {
+  content: " <<";
+  color: darkred;
+}
+
+img {
+  width: 200px;
+  border: 10px solid red;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  border: 1px solid #00007d;
+}

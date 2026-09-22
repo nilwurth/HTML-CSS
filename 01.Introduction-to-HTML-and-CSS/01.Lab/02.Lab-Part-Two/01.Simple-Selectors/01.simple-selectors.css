@@ -1,0 +1,31 @@
+h1 {
+  color: #d6b0a5;
+}
+
+p {
+  font-size: 18px;
+}
+
+.highlight {
+  background-color: #c6cfc6;
+}
+
+#main-title {
+  color: #006400;
+}
+
+#special-paragraph {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  color: #d9a0a0;
+}
+
+div {
+  background-color: #d6b0a5;
+}
