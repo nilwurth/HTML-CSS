@@ -1,0 +1,12 @@
+.date,
+.author {
+  color: #808080;
+}
+
+.date {
+  font-style: italic;
+}
+
+.name {
+  font-weight: bold;
+}
